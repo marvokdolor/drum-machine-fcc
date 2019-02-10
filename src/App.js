@@ -47,7 +47,7 @@ class Drumpad extends React.Component {
     constructor(props) {
         super(props)
         this.handleClick = this.handleClick.bind(this)
-        this.handelKeyDown = this.handleKeyDown.bind(this)
+        this.handleKeyDown = this.handleKeyDown.bind(this)
     }
     componentDidMount() {
         document.addEventListener('keydown', this.handleKeyDown)
